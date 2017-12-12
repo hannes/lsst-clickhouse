@@ -3,7 +3,7 @@
 A [recent blog post](https://www.monetdb.org/blog/lsst-in-monetdb
 ) presented experiments with (synthetic) data as expected from the [Large Synoptic Survey Telescope (LSST)](https://www.lsst.org/about). Here, we describe a repetition of those experiments with [ClickHouse](https://clickhouse.yandex), an analytical DBMS developed by Yandex and released as Open Source. 
 
- Fabrice Jammes and his team from LSST-France kindly provided us with 2 TB of artificial LSST CSV files. The files (~300GB compressed) are [available for download](https://sisyphus.project.cwi.nl/.lsst/). The dataset consists of four main tables, each partitioned to cover a specific area of the sky. The data is structured into the following tables:
+ Fabrice Jammes and his team from LSST-France kindly provided us with 2 TB of artificial LSST CSV files. The files (550GB compressed) are [available for download](https://sisyphus.project.cwi.nl/.lsst/). The dataset consists of four main tables, each partitioned to cover a specific area of the sky. The data is structured into the following tables:
  - `Source`: 1.465.686.816 rows, 87 columns
  - `ForcedSource`: 7.194.676.239 rows, 13 columns
  - `Object`: 79.226.537 rows, 236 columns
